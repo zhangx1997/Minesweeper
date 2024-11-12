@@ -1,0 +1,228 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.board {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.row {
+  display: contents;
+}
+
+/* General Cell Styles */
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Unselected Cell */
+.cell.unselected {
+  background-color: lightgray;
+}
+
+/* Safe, Selected Cell (showing a number) */
+.cell.selected-safe {
+  background-color: #99ff99; /* Light green for safe */
+  color: black;
+  font-weight: bold;
+}
+
+/* Bomb, Selected Cell (showing a bomb icon) */
+.cell.selected-bomb {
+  background-color: #ff9999; /* Light red for bomb */
+  color: white;
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.cell.hovered {
+  opacity: 0.7;
+}
+
+
+.cell:active {
+  background-color: #d3d3d3;
+}
+
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar-link:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Home Page */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.start-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rules-button {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.start-button:hover,
+.rules-button:hover {
+  opacity: 0.8;
+}
+
+/* Game Page */
+.game-container {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-gap: 2px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.board-cell {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.board-cell:hover {
+  background-color: #bbb;
+}
+
+.board-cell.selected-safe {
+  background-color: #99ff99;
+}
+
+.board-cell.selected-bomb {
+  background-color: #ff9999;
+  color: white;
+}
+
+.board-cell.selected {
+  background-color: #e6e6e6;
+}
+
+/* Rules Page */
+.rules-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;  /* This will push the items to the far edges */
+  align-items: center;  /* Ensures vertical centering */
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px; /* Control space between links directly */
+}
+
+.button-container {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 10px;
+}
