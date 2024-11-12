@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+Challenges Faced While Making This App: It is challenging to program the game logics. Ensuring that the Minesweeper grid could dynamically adjust to different screen sizes and handle edge cases (like clicking on a mine or revealing adjacent squares) without breaking the flow of the game was tricky. Additionally, setting up routing and ensuring that each part of the app (such as the rules and home screens) worked seamlessly with the game screen added another layer of complexity.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Additional Features/Functional or Design Changes with More Time: I would implement a timer feature to track how long the player takes to complete the game and a leaderboard to allow players to compare their scores. On the design side, I would improve the responsiveness of the app, making sure it works smoothly across mobile and tablet devices, as well as adding animations for button clicks and game interactions for a more polished user experience.
 
-## Available Scripts
+Assumptions Made While Working on This Assignment: During the development, I assumed that the user would have a basic understanding of how Minesweeper works, so I didn’t spend too much time on explaining the rules within the app. I also assumed the app would be played in a desktop or laptop environment, so some responsiveness adjustments could have been better optimized for mobile screens.
 
-In the project directory, you can run:
+Time Taken to Complete This Assignment: This assignment took approximately 40 hours to complete. The majority of the time was spent working on the core game logic, setting up routing, and handling edge cases. A significant portion of time was also spent troubleshooting issues related to state management and layout.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feedback on This Challenge: I really enjoyed implementing the game logic and figuring out how to make the game interact smoothly with the user interface. However, the time spent troubleshooting deployment issues and managing dependencies (particularly with node.js versions and build issues) was less enjoyable. I have no clue how to set up the render. There is limited available resources and I don't have time to figure out while I am already almost done with all other things.
