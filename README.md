@@ -1,3 +1,5 @@
+Render link: https://xiaomeng-zhang-project2.onrender.com
+
 Challenges Faced While Making This App: It is challenging to program the game logics. Ensuring that the Minesweeper grid could dynamically adjust to different screen sizes and handle edge cases (like clicking on a mine or revealing adjacent squares) without breaking the flow of the game was tricky. Additionally, setting up routing and ensuring that each part of the app (such as the rules and home screens) worked seamlessly with the game screen added another layer of complexity.
 
 Additional Features/Functional or Design Changes with More Time: I would implement a timer feature to track how long the player takes to complete the game and a leaderboard to allow players to compare their scores. On the design side, I would improve the responsiveness of the app, making sure it works smoothly across mobile and tablet devices, as well as adding animations for button clicks and game interactions for a more polished user experience.
